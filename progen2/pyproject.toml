@@ -1,0 +1,18 @@
+[project]
+name = "progen2"
+version = "0.1.0"
+description = "Progen2 Python package"
+authors = [
+    { name = "Timothy Stiles" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch==1.9.0+cu111",
+    "transformers==4.16.2",
+    "tokenizers==0.10.3"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
