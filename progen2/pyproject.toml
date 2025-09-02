@@ -10,7 +10,7 @@ requires-python = ">=3.8"
 dependencies = [
     "torch==2.8.0",
     "transformers==4.16.2",
-    "tokenizers==0.10.3"
+    "tokenizers==0.22.0"
 ]
 
 [build-system]
